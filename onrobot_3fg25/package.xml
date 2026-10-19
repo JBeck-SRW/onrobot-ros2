@@ -21,5 +21,6 @@ ROS 2 description, model-specific control configuration, and visualization for t
     <test_depend>ament_lint_common</test_depend>
     <export>
         <build_type>ament_cmake</build_type>
+      <gazebo_ros gazebo_model_path="${prefix}/.." />
     </export>
 </package>
